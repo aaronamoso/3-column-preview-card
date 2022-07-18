@@ -1,0 +1,96 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  margin: 0;
+}
+
+div {
+  text-align: left;
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 2;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+hr {
+  display: none;
+}
+.attribution {
+  display: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+}
+button:hover {
+  background-color: inherit;
+  text-decoration: inherit;
+}
+
+.button-container-1 {
+  font-size: 15px;
+  margin-top: 50px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(31, 77%, 52%);
+}
+.button-container-2 {
+  font-size: 15px;
+  margin-top: 50px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(184, 100%, 22%);
+}
+.button-container-3 {
+  font-size: 15px;
+  margin-top: 50px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(179, 100%, 13%);
+}
+
+.container-1 {
+  background-color: hsl(31, 77%, 52%);
+  height: 400px;
+  width: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 50px;
+  position: relative;
+  left: 300px;
+  top: 500px;
+}
+
+.container-2 {
+  background-color: hsl(184, 100%, 22%);
+  height: 400px;
+  width: 200px;
+  padding: 50px;
+  position: relative;
+  left: 600px;
+}
+
+.container-3 {
+  background-color: hsl(179, 100%, 13%);
+  height: 400px;
+  width: 200px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 50px;
+  position: relative;
+  left: 900px;
+  bottom: 500px;
+  margin: 0 500px 0 0;
+}
